@@ -5,7 +5,6 @@ const Blog = ({ navigation }) => {
   return (
     <View>
       <Text>BlogScreen BlogScreen</Text>
-      <Button title="click me" onPress={() => navigation.push("Blog")} />
       <Button
         title="Details 2 page"
         onPress={() =>
